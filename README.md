@@ -18,7 +18,7 @@ This project implements a hybrid quantum-classical algorithm using the Variation
 
 ## Introduction
 
-This notebook applies the **Variational Quantum Eigensolver (VQE)** to factor the number 35 by minimizing a cost function derived from the expression \((x \times y - N)^2\), where \(x\) and \(y\) are encoded in qubits. The algorithm uses quantum circuits to evaluate expectations and classical optimizers to update parameters.
+This notebook applies the **Variational Quantum Eigensolver (VQE)** to factor the number 35 by minimizing a cost function derived from the expression $(x \times y - N)^2$, where $x$ and $y$ are encoded in qubits. The algorithm uses quantum circuits to evaluate expectations and classical optimizers to update parameters.
 
 This implementation is inspired by the methodology described in **Mona Sobhani's 2024 Master Thesis** at Brandenburg University of Technology, which explores a hybrid quantum-classical approach for prime factorization using IBM's NISQ (Noisy Intermediate-Scale Quantum) devices. This work highlights how quantum circuits can be used to evaluate computationally intensive parts of the factorization problem, while classical optimizers iteratively refine solutions. This hybrid model shows promise for demonstrating early-stage quantum advantage in cryptographic applications such as RSA, and the notebook mirrors these techniques using Qiskit and Aer simulation tools.
 
