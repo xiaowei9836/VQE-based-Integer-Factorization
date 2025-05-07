@@ -64,8 +64,6 @@ Reference thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opus4-btu/f
 - qiskit ≥ 0.44
 - qiskit_aer
 - qiskit_algorithms
-- numPy
-- matplotlib
 - Optional:
   ```bash
     pip install jupyter
