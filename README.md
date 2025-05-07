@@ -39,9 +39,9 @@ Read the original thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opu
 ## Usage
 
 ### Open and run the notebook:
-```bash
-  jupyter notebook VQE-based_Integer_Factorization.ipynb
-```
+  ```bash
+    jupyter notebook VQE-based_Integer_Factorization.ipynb
+  ```
 
 1.	Step through the cells to initialize the ansatz
 2.	Define the cost function and optimization objective
