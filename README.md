@@ -19,13 +19,13 @@ This project implements a hybrid quantum-classical algorithm using the Variation
 
 ---
 
-## 🧠 Introduction
+## Introduction
 
 This notebook applies the **Variational Quantum Eigensolver (VQE)** to factor the number 35 by minimizing a cost function derived from the expression \((x \times y - N)^2\), where \(x\) and \(y\) are encoded in qubits. The algorithm uses quantum circuits to evaluate expectations and classical optimizers to update parameters.
 
 ---
 
-## ✨ Features
+## Features
 
 - Implements VQE for integer factorization
 - Custom cost function based on binary multiplication
@@ -35,7 +35,7 @@ This notebook applies the **Variational Quantum Eigensolver (VQE)** to factor th
 
 ---
 
-## 💻 Installation
+## Installation
 
 ### Step-by-Step Setup
 
@@ -54,7 +54,7 @@ pip install qiskit qiskit-aer qiskit-algorithms numpy matplotlib
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Open and run the notebook:
 ```bash
@@ -68,7 +68,7 @@ jupyter notebook vqe_factorization_n35_modified_2.ipynb
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 - Adjust the number of qubits for larger factorizations.
 - Choose different optimizers like COBYLA, SPSA, or L_BFGS_B via Qiskit’s optimizer API.
@@ -76,7 +76,7 @@ jupyter notebook vqe_factorization_n35_modified_2.ipynb
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - python ≥ 3.8
 - qiskit ≥ 0.44
@@ -91,13 +91,13 @@ jupyter notebook vqe_factorization_n35_modified_2.ipynb
 
 ---
 
-## 🧪 Examples
+## Examples
 
 After running optimization, the notebook prints measurement results and displays convergence plots. For N = 35, you should observe that the optimized bitstrings decode to the factors 5 and 7.
 
 ---
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 - **Import Errors**: Ensure all Qiskit components and optimizers are installed correctly.
 - **Slow Convergence**: Try switching optimizers or increasing iterations.
@@ -105,12 +105,12 @@ After running optimization, the notebook prints measurement results and displays
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 - xiaowei9836 – Initial work, algorithm design, and implementation
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
