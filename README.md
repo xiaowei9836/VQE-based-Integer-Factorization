@@ -4,7 +4,7 @@ This project implements a hybrid quantum-classical algorithm using the Variation
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
