@@ -60,10 +60,12 @@ Reference thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opus4-btu/f
 
 ## Dependencies
 
-- python ≥ 3.8
-- qiskit ≥ 0.44
-- qiskit_aer
-- qiskit_algorithms
+- python: 3.9.21
+- qiskit: 0.24.1
+- qiskit_aer: 0.12.0
+- qiskit_algorithms: 0.2.1
+- numpy: 1.23.5
+- matplotlib.pyplot: 3.9.4
 
 ---
 
