@@ -62,8 +62,8 @@ Read the original thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opu
 
 - python ≥ 3.8
 - qiskit ≥ 0.44
-- qiskit Aer
-- qiskit-algorithms
+- qiskit_aer
+- qiskit_algorithms
 - numPy
 - matplotlib
 - Optional:
