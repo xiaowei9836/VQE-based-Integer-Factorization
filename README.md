@@ -62,7 +62,7 @@ pip install qiskit qiskit-aer qiskit-algorithms numpy matplotlib
 
 ### Open and run the notebook:
 ```bash
-jupyter notebook vqe_factorization_n35_modified_2.ipynb
+jupyter notebook VQE-based_Integer_Factorization.ipynb
 ```
 
 1.	Step through the cells to initialize the ansatz
