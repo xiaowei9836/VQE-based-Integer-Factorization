@@ -67,9 +67,9 @@ Reference thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opus4-btu/f
 - numPy
 - matplotlib
 - Optional:
-```bash
-  pip install jupyter
-```
+  ```bash
+    pip install jupyter
+  ```
 
 ---
 
