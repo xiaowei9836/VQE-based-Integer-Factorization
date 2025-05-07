@@ -8,12 +8,9 @@ This project implements a hybrid quantum-classical algorithm using the Variation
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Dependencies](#dependencies)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -39,30 +36,11 @@ Read the original thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opu
 
 ---
 
-## Installation
-
-### Step-by-Step Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/xiaowei9836/VQE-based-Integer-Factorization.git
-cd VQE-based-Integer-Factorization
-
-# Create and activate a virtual environment
-python -m venv vqe-env
-source vqe-env/bin/activate  # On Windows: vqe-env\Scripts\activate
-
-# Install dependencies
-pip install qiskit qiskit-aer qiskit-algorithms numpy matplotlib
-```
-
----
-
 ## Usage
 
 ### Open and run the notebook:
 ```bash
-jupyter notebook VQE-based_Integer_Factorization.ipynb
+  jupyter notebook VQE-based_Integer_Factorization.ipynb
 ```
 
 1.	Step through the cells to initialize the ansatz
@@ -89,23 +67,9 @@ jupyter notebook VQE-based_Integer_Factorization.ipynb
 - numPy
 - matplotlib
 - Optional:
-  ```bash
+```bash
   pip install jupyter
-  ```
-
----
-
-## Examples
-
-After running optimization, the notebook prints measurement results and displays convergence plots. For N = 35, you should observe that the optimized bitstrings decode to the factors 5 and 7.
-
----
-
-## Troubleshooting
-
-- **Import Errors**: Ensure all Qiskit components and optimizers are installed correctly.
-- **Slow Convergence**: Try switching optimizers or increasing iterations.
-- **Simulator Errors**: Verify Qiskit Aer is installed and your Python environment is compatible.
+```
 
 ---
 
