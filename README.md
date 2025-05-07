@@ -22,7 +22,7 @@ This notebook applies the **Variational Quantum Eigensolver (VQE)** to factor th
 
 This implementation is inspired by the methodology described in **Mona Sobhani's 2024 Master Thesis** at Brandenburg University of Technology, which explores a hybrid quantum-classical approach for prime factorization using IBM's NISQ (Noisy Intermediate-Scale Quantum) devices. This work highlights how quantum circuits can be used to evaluate computationally intensive parts of the factorization problem, while classical optimizers iteratively refine solutions. This hybrid model shows promise for demonstrating early-stage quantum advantage in cryptographic applications such as RSA, and the notebook mirrors these techniques using Qiskit and Aer simulation tools.
 
-Read the original thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opus4-btu/frontdoor/index/index/docId/6814)
+Reference thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opus4-btu/frontdoor/index/index/docId/6814)
 
 ---
 
