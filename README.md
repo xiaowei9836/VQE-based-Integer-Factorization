@@ -84,7 +84,7 @@ jupyter notebook vqe_factorization_n35_modified_2.ipynb
 - qiskit-algorithms
 - numPy
 - matplotlib
-  Optional:
+- Optional:
   ```bash
   pip install jupyter
   ```
@@ -107,7 +107,7 @@ After running optimization, the notebook prints measurement results and displays
 
 ## Contributors
 
-- xiaowei9836 – Initial work, algorithm design, and implementation
+- `xiaowei9836` – Initial work, algorithm design, and implementation
 
 ---
 
