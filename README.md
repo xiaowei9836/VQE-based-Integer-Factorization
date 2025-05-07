@@ -1,6 +1,6 @@
 # VQE-based Integer Factorization
 
-This project implements a hybrid quantum-classical algorithm using the Variational Quantum Eigensolver (VQE) to factorize composite numbers, specifically **N = 35**, using **Qiskit**. The notebook guides users through constructing a variational ansatz, defining a cost function, evaluating quantum measurements, and applying classical optimizers.
+This project implements a hybrid quantum-classical algorithm using the Variational Quantum Eigensolver (VQE) to factorize composite numbers, using **Qiskit**. The notebook guides users through constructing a variational ansatz, defining a cost function, evaluating quantum measurements, and applying classical optimizers.
 
 ---
 
