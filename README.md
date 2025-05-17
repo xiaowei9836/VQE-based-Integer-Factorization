@@ -72,6 +72,7 @@ Reference thesis: [DOI: 10.26127/BTUOpen-6814](https://opus4.kobv.de/opus4-btu/f
 ## Contributors
 
 - `xiaowei9836` – Initial work, algorithm design, and implementation
+- `annoyingcutie` - Circuit implementation, synthesis, and verification
 
 ---
 
